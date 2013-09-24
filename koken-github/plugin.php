@@ -25,7 +25,7 @@ class KokenGithub extends KokenPlugin {
 	var html = $('<ul/>');
 	var buildTimeline = function(timeline) {
 		$.each(timeline, function(i,event) {
-			if (event.type !== 'PushEvent') { return false; }
+			if (event.type !== 'PushEvent') { return; }
 			$.each(event.payload.commits, function(j, commit) {
 				var status = $('<li/>'),
 					desc = $('<span/>').html(commit.message),
