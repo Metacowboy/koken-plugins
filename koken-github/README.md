@@ -23,3 +23,10 @@ Installation
 2. Sign in to Koken, then visit the Settings > Plugins page to activate the plugin.
 
 3. Once activated, click the Setup button and then enter your github username, api id, and api secret key.
+
+Changelog
+---------
+
+1.01 - [FIXED] Timeline not finishing if encountering events other than PushEvent
+
+1.00 - Initial release
