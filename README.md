@@ -1,1 +1,1 @@
-My Koken Plugins
+Note: All of the plugins in this repository have been broken out into their own repositories. Please see [my repositories](https://github.com/laurendavissmith?tab=repositories) to find their individual repository. The ones in this directory are no longer updated and will be removed at some point in the future.

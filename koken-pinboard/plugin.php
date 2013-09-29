@@ -65,7 +65,7 @@ OUT;
 		} else {
 			// Pinboard API is down or returning malformed json so we'll just hide the element
 			echo <<<OUT
-<script type="text/javascript">$(function() { $('$element').hide(); });</script>
+<script type="text/javascript">$(function() { $($element).hide(); });</script>
 OUT;
 		}
 
